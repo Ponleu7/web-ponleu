@@ -1,0 +1,172 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color:black;
+  background-color: rgb(159, 188, 51);
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+li{
+  float: left;
+}
+li a{
+display: block;
+padding: 13px 19px;
+text-decoration: none;
+text-align: center;
+color:white ;
+}
+li a:hover{
+  color: aqua;
+}
+
+#heading{
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 30px;
+
+ }
+ #paragraph{
+  width: 500px;
+  font-size: 19px;
+  margin-top: 20px;
+  margin-left: 30px;
+ }
+ #icon{
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+ }
+ .vedioIcon{
+  font-size: 30px;
+  text-align: center;
+  vertical-align: sub;
+
+ }
+ #pepsi{
+  width: 70px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+ }
+ .logo{
+  height: 120px;
+  width: 90px;
+  display: inline-block;
+ 
+ }
+ .a{
+  width: 30px;
+  height: 10px;
+  background-color: aliceblue;
+  color: brown;
+  font-size: 20px;
+  margin-left: 10px;
+  
+ }
+ .nav{
+  float: right;
+  font-size: 15px;
+  margin-top: 20px;
+ }
+
+
+
+
+ body{
+  font-family: 'Rubik', sans-serif;
+}
+.grid-container{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.bg-item{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(111, 9, 99);
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 37%;
+  
+  
+}
+.material-symbols-outlined{
+  color: rgb(227, 242, 242);
+  font-size: 80px;
+  vertical-align: sub;
+}
+
+.text-con{
+  text-align: center;
+ 
+  
+}
+.heading{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.paragraph{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.button1{
+  display:inline-block;
+  text-align: center;
+  margin-left: 42%;
+  position: absolute;
+  margin-top: 300px;
+  width: 140px;
+  height: 30px;
+  border: 1px solid rgb(69, 4, 58);
+  background-color: rgb(125, 9, 119);
+  color: azure;
+  border-radius: 10px;
+}
+
+.fcontainer{
+  max-width: 2170;
+  margin: auto;
+  padding-top: 300px;
+  position:;
+  
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  width: 50px;
+}
+footer{
+  padding: 70px 0;
+ 
+  
+}
+.footer-col{
+  width: 30%;
+  padding: 0 15px;
+}
+
+.last-page{
+  background-color: wheat;
+}
+
+
+
+
+
+

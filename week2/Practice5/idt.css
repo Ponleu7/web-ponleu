@@ -1,0 +1,182 @@
+.container-1{
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.logo{
+  height: 110px;  
+  
+}
+.ul1{
+  margin-right: 30px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  margin-top: 40px;
+  
+}
+.li1{
+ display: inline-block; 
+}
+.lia1{
+text-decoration: none;
+display: block;
+text-align: center;
+padding: 14px 16px;
+color: black;
+}
+.lia1:hover{
+  color: rgb(232, 194, 25);
+}
+.nav2con{
+  display: inline-block;
+
+}
+.ul2{
+ margin: 0;
+ padding: 0;
+ overflow: hidden; 
+ list-style-type: none;
+}
+.ul2 li{
+  display:inline-block;
+}
+.ul2 li a{
+  text-decoration: none;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  color:black;
+  display: block;
+  line-height: 70px;
+  
+}
+.ul2 li a:hover{
+ color:  rgb(236, 173, 14);
+
+}
+
+.nav2con{
+  display: block;
+  background-color: aqua;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ul2 ul {
+  position: absolute;
+  border-top: 3px solid rgb(236, 173, 14);
+  opacity: o;
+  visibility: hidden;
+
+
+}
+.ul2 li:hover> ul{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+  color: rgb(218, 150, 49);
+  background-color:rgb(243, 243, 240);
+}
+.ul2 ul li{
+  width: 350px;
+  display: list-item;
+  position: relative;
+  list-style-type: none;
+  border-top: none;
+}
+.ul2 ul li a{
+  line-height:40px;
+  text-align: start;
+}
+.ul2 ul li :hover{
+  background-color: rgb(236, 173, 14);
+  width: 330px;
+  color: white;
+  
+}
+
+.school{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  
+}
+.photo-con{
+  background-image: url("https://www.idt.edu.kh/wp-content/uploads/2021/12/cropped-Slide-Photo.png");
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  
+}
+.text{
+  position: absolute;
+  left: 10%;
+  top:60%;
+}
+.char{
+  text-align: center;
+}
+.char h1{
+  font-size: 45px;
+
+
+}
+.char p{
+  font-size: 25px;
+}
+
+.major{
+  display: flex;
+  justify-content: center;
+}
+
+.major-pic{
+  width: 250px;
+  margin: 35px;
+  box-shadow: 1px 1px 2px 3px #aba6a6;
+
+}
+.major-pic:hover{
+  box-shadow: 5px 3px 5px #aba6a6 ;
+}
+
+.button-major{
+  display: flex;
+  justify-content: center;
+}
+
+.button-major p{
+  display: inline-block;
+  text-align: center;
+  margin: 100px; 
+  margin-top: 20px;
+  padding: 15px 15px;
+  background-color: rgb(236, 173, 14);
+  text-align: center;
+  color: white;
+  border-bottom-right-radius: 10px;
+}
+
+.text-bu{
+  background-color: aqua;
+  padding: 15px 15px;
+  width: 80%;
+  justify-content: center;
+  margin-left: 130px;
+  color: white;
+}
+.text-bu h2{
+  font-size: 35px;
+}
+.text-bu p{
+  
+}
+
+

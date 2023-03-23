@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 30px;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+text-align: center;
+padding: 10px 20px;
+color: white;
+text-decoration: none;
+}
+.div1 {
+  width: 70%;
+  float: left;
+  font-size: 20px;
+  border: 1px solid gray;
+ 
+ 
+}
+span{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div2{
+  width: 160px;
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 18px;
+}
+img{
+  width: 250px;
+}
+.final{
+background-color: rgb(3, 3, 82);
+color: aliceblue;
+display: inline-block;
+width: 100%;
+display: flex;
+justify-content:space-between;
+align-items: flex-start;
+}
+.bottom1,.bottom2,.bottom3{
+  width: 15%;
+
+  margin-right: 200px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  height: 200px;
+
+}
+b{
+  margin-bottom: 10px;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <img style="width:30% ;" src="data:image/png;base64,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" alt="">
+  <ul>
+    <li><a href="">About</a></li>
+    <li> <a href="">Institutes</a></li>
+    <li> <a href="">Academic</a></li>
+    <li> <a href="">Reseach</a></li>
+    <li> <a href="">Inovation</a></li>
+    <li>  <a href="">Govtech</a></li>
+  </ul>
+
+  <div>
+    <div class="div1">
+     <h1>CADT AND PHILLIP BANK PARTNER FOR STUDENT LOAN PROGRAMME</h1><br>
+      <h6>9th February 2022 | News</h6><br>
+      <sub>
+       <span>Phnom Penh, 03rd Feb 2022–</span>  Held at the Innovation Center Building of Cambodia Academy of Digital Technology (CADT), the Memorandum of Understanding (MoU) on Student Loan Programme between CADT and Phillip Bank Plc was presided over by H.E. Vandeth CHEA, Minister of Post and Telecommunications.
+
+The Digital Technology Student Loan Programme is initiated in response to the need of increasing the number of digital professionals in Cambodia and is a pioneering initiative of CADT under the auspices of the Ministry of Post and Telecommunications. The program aims to: 1). provide opportunities for students who cannot afford to pay the tuition fees and those who want to be financially independent to pursue their education; 2). encourage the growth of outstanding students in the field of digital technology to build human resources who have the capacity for the market needs.
+      </sub><br>
+      <img src="/Photos/ffff.jpg" alt="" style="width: 95%;"><br>
+
+      <sub>According to H.E. Dr. Sopheap SENG, President of CADT, this student loan program will be provided to students who cannot afford to pay their tuition fees and those who want to be financially independent with the condition below:
+
+        Students who pass the CADT exam are entitled to receive a $6,000 scholarship from Phillip Bank to complete their Bachelor’s Degree.
+        During their study, students are not required to pay either principal or interest.
+        Students who wish to receive this loan are not required to provide any collateral.
+        Students are required to pay their loans only after they finish their Bachelor’s Degree and receive a job with a decent salary.
+        The CADT strongly believes that the students who graduate will have good job opportunities, high salaries, and the capacity to repay their loans. In the case that the student graduate but is unable to find a job, CADT will take the responsibility for paying the loan on behalf of the student. This proves that CADT is committed to providing the highest quality education in digital technology in Cambodia. This student loan program is offered to students who have passed the entrance exam to study at the CADT for a Bachelor’s Degree in Computer Science, Telecommunications and Networking, and E-Commerce.
+        
+        On behalf of the Ministry of Posts and Telecommunications, which is also in charge of the development of telecommunications and digital technology, H.E. Vandeth CHEA is very pleased and supportive of this student loan program. He also encouraged young people to consider studying digital technology as well as other skills related to Industry 4.0. This way, they will be able to strengthen their capacity and find a job that has a high income so they can help improve their personal and family life, especially contributing to the promotion and development of the country in the digital era.
+        
+        H.E. Vandeth CHEA expressed his appreciation to CADT and Phillip Bank for their collaborative efforts to become a strong strategic partner in this student loan program at CADT. This is the first digital technology student loan program in Cambodia that provides many favorable terms to the students. H.E. Vandeth CHEA also encouraged Cambodian youth to enroll at the CADT starting from February 18, 2022, onward.
+        
+        Mr. Chan Mach, Chief Executive Officer of Phillip Bank said that this collaboration will provide an opportunity for Cambodian students to achieve the careers they have always dreamed of, especially in digital technology. Phillip Bank strongly hopes that this support will help contribute to increasing human resources in Cambodia to be ready for the development of digital technology in the country now and in the future.
+        
+        Please note that the CADT is a leading public research and education institution in the field of digital technology with the mission of providing education, training, research, and development in the field of communications, e-commerce, and information technology in Cambodia. CADT is in charge of educating students in digital engineering and digital business, currently pursuing undergraduate training in telecommunications and network science, computer science, and e-commerce.
+        
+        (Extracted from KhmerTimes)
+        
+        For more information, please contact CADT at:
+
+       
+        
+        
+        
+       
+       
+      Official Address: Bridge 2, National Road 6A, Sangkat Prek Leap, Khan Chroy Changva Phnom Penh.</sub><br>
+      <ol>
+        <li> Phone number: 015 335 877/077 335 877</li><br>
+        <li>Apply online: reg.cadt.edu.kh/register</li><br>
+        <li> Email: admission@cadt.edu.kh</li><br>
+        <li> Website: www.cadt.edu.kh</li><br>
+        <li>Facebook: fb.com/CADT.Academy</li><br>
+        <li> Telegram: t.me/CADT_Official</li><br>
+      </ol>
+
+      <img src="/Photos/1200px-Ankor_Wat_temple.jpg" alt="">
+       <img src="/Photos/3sub.png" alt="">
+       <img src="/Photos/school.jpg" alt="">
+       <img src="/Photos/ankor.jpg" alt="">
+       <img src="/Photos/ffff.jpg">
+       <img src="/Photos/ffff.jpg" alt="">
+       <img src="/Photos/ffff.jpg" alt="">
+       <img src="/Photos/ffff.jpg" alt="">
+       <img src="/Photos/ffff.jpg" alt="">
+       <img style="width: 764px;" src="/Photos/ffff.jpg" alt="">
+     
+      
+    </div>
+    <div class="div2">
+      <input type="search" style="margin-top: 40px;">
+      <p><h2>Recent News</h2>
+        PEDAGOGY OF BLENDED LEARNING FOR NEW ACADEMY YEAR
+        26th August 2022
+        CADT STUDENT REPRESENTING CAMBODIA WON THE SPECIAL TOYOTA AWARD AT ABU ROBOCON 2022
+        23rd August 2022
+        APPLICATION OPEN FOR CAMBODIA DIGITAL AWARDS 2022
+        22nd August 2022
+        KHoding Hero AIM TO INSPIRE YOUNG STUDENTS AT RURAL AREA TO BECOME DIGITAL INNOVATOR
+        19th August 2022
+        CAMBODIA TABLE TENNIS COMPETITION 2022 FOUND THE WINNER FROM CADT
+        30th June 2022
+        Upcoming Events
+        APPLICATION OPEN FOR CAMBODIA DIGITAL AWARDS 2022
+        22nd August 2022
+        BUILDING FOUNDATIONS FOR DIGITAL TRANSFORMATION CALL FOR PAPERS
+        21st April 2022
+        Cambodia ICT Award 2021 Finalists
+        25th October 2021
+        DIGICODE Program to Help Young Talents Build Their Dream Projects
+        14th October 2021
+        ONA 2021 CALL FOR PAPERS
+        10th June 2021</p><br>
+
+        
+    </div>
+    <div class="final">
+      <div class="bottom1">
+        <p> <b>ADDRESS</b><br>
+         Bridge 2, National Road 6A, Sangkat Prek Leap, Khan Chroy Changva, Phnom Penh</p>
+       </div>
+       <div class="bottom2">
+        <p> <b>INSTITUTES</b><br>
+          Institute of Digital Technology
+          Institute of Digital Governance
+          Institute of Digital Research and Innovation</p>
+       </div>
+       <div class="bottom3">
+        <p><b>INFORMATION LINKS</b><br>
+          Contact Us
+          Careers
+          Admission
+          Resources
+        </p>
+        
+
+       </div>
+
+
+     </div>
+    
+
+
+  </div>
+
+
+</body>
+</html>

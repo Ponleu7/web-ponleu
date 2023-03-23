@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        /* display: flex; */
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      .a {
+        background-color: aqua;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        border-radius: 8px;
+        align-items: center;
+         display: flex; 
+        justify-content: center;
+      }
+      .b {
+        background-color: rgb(48, 212, 51);
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        border-radius: 50%;
+        align-items: center;
+         display: flex; 
+        justify-content: center;
+      }
+
+      .c {
+        background-color: rgb(203, 44, 156);
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        align-items: center;
+         display: flex; 
+        justify-content: center;
+      }
+      .a p {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="a">150x150 </div>
+      <div class="b">150x150</div>
+      <div class="c">150x150</div>
+    </div>
+  </body>
+</html>
